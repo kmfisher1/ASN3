@@ -1,0 +1,83 @@
+/* Color Palette Codes:
+* 343434 - Almost Black (font)
+* F7FFF7 - Almost White (font)
+* 355834 - Hunter Green
+* 6E633D - Antique Bronze
+* D6DBD2 - Timberwolf (unused)
+* D64933 - Cinnabar (unused)
+* B19994 - Tuscany (Link)
+*/
+
+/* Global Styles
+-------------------------------*/
+body {
+    color: #000000;
+    font-family:'Book Antiqua', 'Arial Narrow', Arial, sans-serif;
+    background: #000000;
+}
+img {
+    width:300px;
+}
+
+a {
+    color:#B19994;
+
+}
+a:hover {
+    text-decoration: none;
+}
+
+/* Profile
+-------------------------------*/
+header {
+    background: #355834;
+    color: #f7fff7;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+
+/* Projects
+-------------------------------*/
+.projects {
+    background: #6E633D;
+    padding-left: 5px;
+    padding-right: 2px;
+    padding-bottom: 8px; /**to level bottom color with.btn**/
+}
+.projects a {
+    color: #F7FFF7;
+}
+
+.projects .btn {
+    color: #f7fff7;
+    background: #343434;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.projects .btn:hover {
+    background: rgba(52, 52, 52, 80%);
+}
+
+/* Work Experience
+-------------------------------*/
+.work-experience {
+    background: #355834;
+    color: #f7fff7;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+/* Education
+-------------------------------*/
+.education {
+    background: #6E633D;
+
+}
+/* Contact Info
+-------------------------------*/
+footer {
+    padding-left: 5px;
+    padding-right: 2px;
+    background: #355834;
+    color: #f7fff7;
+}
