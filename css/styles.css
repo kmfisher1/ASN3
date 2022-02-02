@@ -1,19 +1,21 @@
 /* Color Palette Codes:
-* 343434 - Almost Black (font)
-* F7FFF7 - Almost White (font)
-* 355834 - Hunter Green
-* 6E633D - Antique Bronze
-* D6DBD2 - Timberwolf (unused)
-* D64933 - Cinnabar (unused)
-* B19994 - Tuscany (Link)
+* #2C3531 - Dark Gray color
+* #116466 - Teal Blue/Green
+* #D9B08C - Darker Tan
+* #FFCB9A - Lighter Tan
+* #D1E8E2 - Steel Blueish color
 */
 
 /* Global Styles
 -------------------------------*/
 body {
-    color: #000000;
-    font-family:'Book Antiqua', 'Arial Narrow', Arial, sans-serif;
+    color: #D1E8E2;
+    margin: 0;
+    padding:0;
+    font-family:'Libre Baskerville', serif;
     background: #000000;
+    font-size: 15px;
+    line-height: 1.75;
 }
 img {
     width:300px;
@@ -26,34 +28,60 @@ a {
 a:hover {
     text-decoration: none;
 }
+h1 {
+    font-size: 100px;
+    line-height: 1;
+    text-shadow: 5px 2px black;
+}
+h2 {
+    font-size: 40px;
+}
+h1,h2 {
+    font-family: 'Quintessential', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+
+.content-wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
 
 /* Profile
 -------------------------------*/
 header {
-    background: #355834;
-    color: #f7fff7;
+    background: #116466;
     padding-left: 5px;
     padding-right: 2px;
 }
-
+.dreamer {
+    text-shadow: 2px 2px black;
+}
+.quote {
+    font-style: italic;
+    font-size: 12px; 
+}
 /* Projects
 -------------------------------*/
 .projects {
-    background: #6E633D;
+    background: #D1E8E2;
+    color: #116466;
     padding-left: 5px;
     padding-right: 2px;
-    padding-bottom: 8px; /**to level bottom color with.btn**/
 }
 .projects a {
-    color: #F7FFF7;
+    color: #2C3531;
+    font-size: 14px;
 }
 
 .projects .btn {
-    color: #f7fff7;
-    background: #343434;
+    color: #FFCB9A;
+    background: #2C3531;
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
+    display:inline-block;
 }
 .projects .btn:hover {
     background: rgba(52, 52, 52, 80%);
@@ -62,7 +90,7 @@ header {
 /* Work Experience
 -------------------------------*/
 .work-experience {
-    background: #355834;
+    background: #116466;
     color: #f7fff7;
     padding-left: 5px;
     padding-right: 2px;
@@ -70,14 +98,17 @@ header {
 /* Education
 -------------------------------*/
 .education {
-    background: #6E633D;
-
+    background: #D1E8E2;
+    color: #116466;
 }
 /* Contact Info
 -------------------------------*/
 footer {
-    padding-left: 5px;
-    padding-right: 2px;
-    background: #355834;
-    color: #f7fff7;
+    font-size: 12px;
+    background: #2c3531;
+    color: #116466;
+}
+
+footer a {
+    text-decoration: none;
 }
